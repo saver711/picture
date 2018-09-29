@@ -56,8 +56,10 @@ header{
     padding: 27rem 0 0;
 }
 .title{
-    position: relative;
-    top: 7vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 .btn{
